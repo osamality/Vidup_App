@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="VidupApp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.0.1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/art/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/slider/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/viewpager/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/0441d28df5ae0c75d8e0771e313004e9/jetified-react-native-0.64.2-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/788ce19a2d045456f48c24a48e3417d0/swiperefreshlayout-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/fca631996b3f40d320aac80dc5f3ea63/appcompat-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/7ec160cb5a862f8f52690ceceddcdbb9/jetified-firebase-analytics-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/cb7435e861431435617e78bba2477954/jetified-play-services-measurement-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d77224249d6c097a312741c14e7554fd/jetified-play-services-measurement-sdk-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/c1c9e6747253a74a62a02c38997c4e99/jetified-play-services-measurement-impl-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/7279a9e7ba607376b19c6a03f85fc60d/jetified-play-services-stats-17.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/df145b8b8160a8011fd161fb9e14fac1/legacy-support-core-utils-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/1e40d92f9c43bf2e35409147f014fda6/jetified-play-services-measurement-api-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/9d3f8ae49f2e37f562af6eb3b2f21fd3/jetified-play-services-ads-identifier-17.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/5b00055e31400af1739b665c4203a507/jetified-play-services-measurement-sdk-api-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/8547b1a2907bc5240776a0e74f5486ba/jetified-play-services-measurement-base-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/31d0e9b153cdb5833956078099558734/jetified-firebase-installations-17.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/fa514a9db5fabb073ad15ae67e758663/jetified-firebase-common-20.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/abaef91aa92ae99ceec78441815109ad/jetified-firebase-installations-interop-17.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/048c884f4964df3fff786bb82ea1fd9a/jetified-play-services-tasks-17.2.1-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/02e15cf60c0930ac06a9dc5b4d4d0767/jetified-firebase-measurement-connector-19.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/b75bfc06214a13cfc99486297d9d0e1d/jetified-play-services-basement-17.6.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/2809658ba24dfb86748fc1c98af14d95/fragment-1.2.1-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/8c89d29afd267e6a03c5f72980420713/jetified-appcompat-resources-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/cbc93f8559454949fe9f3fad5f9ca09e/drawerlayout-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/00aa0a531bb7dd4a39a93fb512c096b4/loader-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/6120f3e937ba492e91f5febef8d398da/viewpager-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/4b0d8fa689ba298e97d782fc135e0aa4/jetified-activity-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/305769e2e3e970532e884aa225b23a21/vectordrawable-animated-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/87fcb1a4a6cda015854b917196cd291a/vectordrawable-1.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/8f11f0c984d4f96b6a86a5d3ff546d47/customview-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/a1be8b48125e3d25be23916793552ce6/core-1.3.2-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/322e9ebfb8c5db08a269897594b9b377/interpolator-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/bb97109b0c19f5d4e3b68507e651ffce/versionedparcelable-1.1.0-api.jar:/Users/kamran/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/65ba9c9d55f6002cb62857b628226cc9/jetified-firebase-components-17.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d9870103b8052930671a6b626a894f18/cursoradapter-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d23c6fc1ec7569ab650ce0a124f18f4c/lifecycle-runtime-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/b41cfaad211e4ebd0cf7e42209463d6e/documentfile-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/45d9b051a5c657d7bfc1a7e42695c4d5/localbroadcastmanager-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/3d27e6a5208a063babe3e996b085b32a/print-1.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/162500d4c6571e0c9d72c1d61f591ea3/jetified-lifecycle-viewmodel-savedstate-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/be4f7694665a0fe8bba500e8d69498dd/lifecycle-viewmodel-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/93ba5014da20280c3d30afe5326fbdc6/lifecycle-livedata-2.1.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/82f055f4e4e57633f865dac592434d1f/lifecycle-livedata-core-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/3884a37c54b4afae23f1276afd5d04fb/jetified-savedstate-1.0.0-api.jar:/Users/kamran/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/022cb30d355be0eec92c801af856abf7/core-runtime-2.1.0-api.jar:/Users/kamran/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/kamran/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.4.0-alpha01/8c16c0d1fad0d41cdac0394c7fa16a25a4210248/annotation-1.4.0-alpha01.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/3b8b19c4b9e39f6a707977afde4ddabb/jetified-kotlin-stdlib-1.6.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/8b52b380cb349659466b701fd518f519/jetified-annotations-13.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/f3d78bba2d43714f0108c9b97daa92bb/jetified-kotlin-stdlib-common-1.6.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d6d6663c58a9b21ae8a7003169887b55/jetified-flipper-0.54.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/39d0b36aed77e61e8289b3f48ddf3272/jetified-bolts-applinks-1.4.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/a29e547b388a2355de76b710a1f8970e/jetified-bolts-tasks-1.4.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/94d3761250a5fca2219c20b27a190a88/jetified-soloader-0.9.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/ae95f8c4ee054f4e8de3009cfe5fe28e/jetified-annotation-0.9.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/7d482669a1d693792aa8942e632d7053/jetified-nativeloader-0.9.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/35599310515bc2cf52b75f4082a63bb6/jetified-infer-annotation-0.11.2.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/a0945b48e15ea8ce7a800212bb5d9d26/jetified-jsr305-3.0.2.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/0a9bd0d97f37ca87f7d6b3f8e7a9c3b7/jetified-flipper-network-plugin-0.54.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/7f9d3f7de4f78907fa792e3fcca4a032/jetified-flipper-fresco-plugin-0.54.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/f38aac6ede147068754b6b00222128ac/jetified-fresco-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/707fe57c9634309dcb19617cc27d24bb/jetified-fbcore-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/f80e162570cd9da0252194f79921cac6/jetified-drawee-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d6dec2281a7d9e61a15a341433dd6eb1/jetified-imagepipeline-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/01f0d094415faf922cb7f95fd7cd2509/jetified-imagepipeline-base-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/43d9c3dccaa542ae022a27edbeea6b8f/jetified-imagepipeline-native-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/f6361d5085d4eaba81d7f0aae30548e1/jetified-memory-type-ashmem-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/514b3da162701c2b359e28a2b11fa3c2/jetified-memory-type-native-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/b3f68ef280104f63e2ab3f2612501c6f/jetified-memory-type-java-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/4904085fae142664e08dd5eda84f1d7d/jetified-nativeimagefilters-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/60bd25343ad0c74d491d128cf4b19d17/jetified-nativeimagetranscoder-2.2.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/981232ff8e0b50831da58740ffc0669d/jetified-firebase-annotations-16.0.0.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/902acd96c48c920a2abac42176f6494d/jetified-javax.inject-1.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/b2cd27a29d00f3bc73d4cf8b4d47f121/jetified-proguard-annotations-1.14.1.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/bfef8f3e95e8093d9873934ea7c3fd22/jetified-imagepipeline-okhttp3-2.0.0-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/3db36f2dd9e1ee656bc4f5a42981f9e9/jetified-okhttp-urlconnection-3.12.12.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/41b217648bde4071f27818ddfdb6db20/jetified-okhttp-3.12.13.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/e203cb222c5b81d201d8b40eb682fa03/jetified-okio-1.17.5.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/7e1d12553eadb14b7a5c23835e9cb2d0/jetified-fbjni-java-only-0.0.3.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/d8255cdeec9b4ea9767376520f832078/multidex-2.0.1-api.jar:/Users/kamran/.gradle/caches/transforms-2/files-2.1/9a40698726c8332ed628660d07e28c43/jetified-android-jsc-r245459-api.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-fbsdk/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/compile_library_classes_jar/generalDebug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-svg/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-vector-icons/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/async-storage/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/blur/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/clipboard/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/masked-view/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/netinfo/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/toolbar-android/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-google-signin/google-signin/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/@sayem314/react-native-keep-awake/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-create-thumbnail/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-date-picker/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-device-info/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-document-picker/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-fast-image/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-ffmpeg/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-fs/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-gesture-handler/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-resizer/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-linear-gradient/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-orientation-locker/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-reanimated/android/build/.transforms/9f2af546ca1a36ad451501b2978a4a2e/jetified-react-native-reanimated-64-jsc-api.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-safe-area-context/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-screens/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-sound-player/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-splash-screen/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-video/android-exoplayer/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-video-cache/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/compile_library_classes_jar/debug/classes.jar:/Users/kamran/Library/Android/sdk/platforms/android-29/android.jar:/Users/kamran/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="jvmTarget" value="1.6" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug;file://$MODULE_DIR$/../../../app/build/generated/res/react/debug;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/google-services/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/rncli/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.4.0-alpha01" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-applinks:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:annotation:0.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:nativeloader:0.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.infer.annotation:infer-annotation:0.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-annotations:16.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.yoga:proguard-annotations:1.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp-urlconnection:3.12.12" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.12.13" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fbjni:fbjni-java-only:0.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.react:react-native:0.64.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-impl:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:20.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-installations-interop:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:17.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:19.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:17.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.3.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-components:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.flipper:flipper:0.54.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.soloader:soloader:0.9.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.flipper:flipper-network-plugin:0.54.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.flipper:flipper-fresco-plugin:0.54.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fresco:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:fbcore:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:drawee:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-base:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-native:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:memory-type-ashmem:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:memory-type-native:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:memory-type-java:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagefilters:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.facebook.fresco:imagepipeline-okhttp3:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.multidex:multidex:2.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.webkit:android-jsc:r245459@aar" level="project" />
+    <orderEntry type="library" name="Gradle: artifacts:react-native-reanimated:unspecified" level="project" />
+    <orderEntry type="module" module-name="VidupApp.notifee_react-native" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_art" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_slider" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_viewpager" />
+    <orderEntry type="module" module-name="VidupApp.react-native-firebase_messaging" />
+    <orderEntry type="module" module-name="VidupApp.react-native-firebase_app" />
+    <orderEntry type="module" module-name="VidupApp.react-native-fbsdk" />
+    <orderEntry type="module" module-name="VidupApp.react-native-camera" />
+    <orderEntry type="module" module-name="VidupApp.react-native-svg" />
+    <orderEntry type="module" module-name="VidupApp.react-native-vector-icons" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_async-storage" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_blur" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_clipboard" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_masked-view" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_netinfo" />
+    <orderEntry type="module" module-name="VidupApp.react-native-community_toolbar-android" />
+    <orderEntry type="module" module-name="VidupApp.react-native-google-signin_google-signin" />
+    <orderEntry type="module" module-name="VidupApp.sayem314_react-native-keep-awake" />
+    <orderEntry type="module" module-name="VidupApp.react-native-create-thumbnail" />
+    <orderEntry type="module" module-name="VidupApp.react-native-date-picker" />
+    <orderEntry type="module" module-name="VidupApp.react-native-device-info" />
+    <orderEntry type="module" module-name="VidupApp.react-native-document-picker" />
+    <orderEntry type="module" module-name="VidupApp.react-native-fast-image" />
+    <orderEntry type="module" module-name="VidupApp.react-native-ffmpeg" />
+    <orderEntry type="module" module-name="VidupApp.react-native-fs" />
+    <orderEntry type="module" module-name="VidupApp.react-native-gesture-handler" />
+    <orderEntry type="module" module-name="VidupApp.react-native-image-crop-picker" />
+    <orderEntry type="module" module-name="VidupApp.react-native-image-resizer" />
+    <orderEntry type="module" module-name="VidupApp.react-native-inappbrowser-reborn" />
+    <orderEntry type="module" module-name="VidupApp.react-native-linear-gradient" />
+    <orderEntry type="module" module-name="VidupApp.react-native-orientation-locker" />
+    <orderEntry type="module" module-name="VidupApp.react-native-safe-area-context" />
+    <orderEntry type="module" module-name="VidupApp.react-native-screens" />
+    <orderEntry type="module" module-name="VidupApp.react-native-share" />
+    <orderEntry type="module" module-name="VidupApp.react-native-sound-player" />
+    <orderEntry type="module" module-name="VidupApp.react-native-splash-screen" />
+    <orderEntry type="module" module-name="VidupApp.react-native-video" />
+    <orderEntry type="module" module-name="VidupApp.react-native-video-cache" />
+    <orderEntry type="module" module-name="VidupApp.react-native-webview" />
+    <orderEntry type="module" module-name="VidupApp.rn-fetch-blob" />
+  </component>
+</module>

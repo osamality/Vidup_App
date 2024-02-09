@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/kamran/.gradle/caches/transforms-2/files-2.1/d72f8c4b72bd55104394321516e533bd/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3536",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3681"
+                    }
+                },
+                {
+                    "source": "/Users/kamran/.gradle/caches/transforms-2/files-2.1/a97035679cc2d478edb8325c9c10fbba/material-1.1.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "53,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3686,3951",
+                        "endLines": "56,60",
+                        "endColumns": "10,10",
+                        "endOffsets": "3946,4219"
+                    }
+                },
+                {
+                    "source": "/Users/kamran/.gradle/caches/transforms-2/files-2.1/5704db53ba680e2af0ec3d5fccec5753/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2618,2842,2957,3064,3177",
+                        "endLines": "2,3,4,5,19,33,34,35,36,40,41,42,43,47",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2613,2837,2952,3059,3172,3402"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,22,36,37,38,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "184,319,454,529,616,1500,2396,2515,2642,2747,2971,3086,3193,3306",
+                        "endLines": "4,5,6,7,21,35,36,37,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,104,12,114,106,112,12",
+                        "endOffsets": "314,449,524,611,1495,2391,2510,2637,2742,2966,3081,3188,3301,3531"
+                    }
+                },
+                {
+                    "source": "/Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

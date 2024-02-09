@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VidupApp.iml" filepath="$PROJECT_DIR$/.idea/modules/VidupApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1063945875/VidupApp.@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1063945875/VidupApp.@react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1602284932/VidupApp.@react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/1602284932/VidupApp.@react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1802362570/VidupApp.@sayem314_react-native-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1802362570/VidupApp.@sayem314_react-native-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VidupApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VidupApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/358454421/VidupApp.notifee_react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/358454421/VidupApp.notifee_react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/362099038/VidupApp.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/362099038/VidupApp.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-279073178/VidupApp.react-native-community_art.iml" filepath="$PROJECT_DIR$/.idea/modules/-279073178/VidupApp.react-native-community_art.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1063945875/VidupApp.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1063945875/VidupApp.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1602284932/VidupApp.react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/1602284932/VidupApp.react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/213166169/VidupApp.react-native-community_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/213166169/VidupApp.react-native-community_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/64769962/VidupApp.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/64769962/VidupApp.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1458652594/VidupApp.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1458652594/VidupApp.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/727900350/VidupApp.react-native-community_slider.iml" filepath="$PROJECT_DIR$/.idea/modules/727900350/VidupApp.react-native-community_slider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1445103712/VidupApp.react-native-community_toolbar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-1445103712/VidupApp.react-native-community_toolbar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-82823423/VidupApp.react-native-community_viewpager.iml" filepath="$PROJECT_DIR$/.idea/modules/-82823423/VidupApp.react-native-community_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2140563028/VidupApp.react-native-create-thumbnail.iml" filepath="$PROJECT_DIR$/.idea/modules/2140563028/VidupApp.react-native-create-thumbnail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/697026996/VidupApp.react-native-date-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/697026996/VidupApp.react-native-date-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-523379732/VidupApp.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-523379732/VidupApp.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1966081319/VidupApp.react-native-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1966081319/VidupApp.react-native-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/546202979/VidupApp.react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/546202979/VidupApp.react-native-fast-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/905407589/VidupApp.react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/905407589/VidupApp.react-native-fbsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-613336962/VidupApp.react-native-ffmpeg.iml" filepath="$PROJECT_DIR$/.idea/modules/-613336962/VidupApp.react-native-ffmpeg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1567711600/VidupApp.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1567711600/VidupApp.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-698957517/VidupApp.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-698957517/VidupApp.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1439115142/VidupApp.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1439115142/VidupApp.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1233166227/VidupApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1233166227/VidupApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/547131526/VidupApp.react-native-google-signin_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/547131526/VidupApp.react-native-google-signin_google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2041345568/VidupApp.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-2041345568/VidupApp.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1103502643/VidupApp.react-native-image-resizer.iml" filepath="$PROJECT_DIR$/.idea/modules/1103502643/VidupApp.react-native-image-resizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1352607556/VidupApp.react-native-inappbrowser-reborn.iml" filepath="$PROJECT_DIR$/.idea/modules/1352607556/VidupApp.react-native-inappbrowser-reborn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-613215105/VidupApp.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-613215105/VidupApp.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1696309650/VidupApp.react-native-orientation-locker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1696309650/VidupApp.react-native-orientation-locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2139361905/VidupApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-2139361905/VidupApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/989598102/VidupApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/989598102/VidupApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-134326994/VidupApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-134326994/VidupApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-350378682/VidupApp.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/-350378682/VidupApp.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-946386216/VidupApp.react-native-sound-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-946386216/VidupApp.react-native-sound-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/246139385/VidupApp.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/246139385/VidupApp.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1429230731/VidupApp.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/1429230731/VidupApp.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-240167287/VidupApp.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-240167287/VidupApp.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/796499410/VidupApp.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/796499410/VidupApp.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-825941289/VidupApp.react-native-video-cache.iml" filepath="$PROJECT_DIR$/.idea/modules/-825941289/VidupApp.react-native-video-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-875384416/VidupApp.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-875384416/VidupApp.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/453205842/VidupApp.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/453205842/VidupApp.rn-fetch-blob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1802362570/VidupApp.sayem314_react-native-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1802362570/VidupApp.sayem314_react-native-keep-awake.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_notificationsdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/notificationsdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_searchhighlighted.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/searchhighlighted.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_splash_screen.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable-xxxhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_notificationshighlighted.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/notificationshighlighted.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_darkpasswordshow.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/darkpasswordshow.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/layout_launch_screen.xml.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/layout/launch_screen.xml"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_notificationsdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/notificationsdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_saveddark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/saveddark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_weeklyvideoslider.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/weeklyvideoslider.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_splash_screen.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable-xxhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_privacypolicydim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/privacypolicydim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_supportdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/supportdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_hamburgermenudim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/hamburgermenudim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_homedim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/homedim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_legalinformationdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/legalinformationdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_legalinformationdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/legalinformationdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_hamburgermenudark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/hamburgermenudark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_homehighlighted.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/homehighlighted.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_editdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/editdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_searchdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/searchdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_homedark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/homedark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_commentdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/commentdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_heartdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/heartdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_commentdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/commentdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_eyewithoutline.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/eyewithoutline.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_heartfiled.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/heartfiled.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_splash.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/splash.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_userdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/userdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_darkpasswordhide.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/darkpasswordhide.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_passworddark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/passworddark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_passworddim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/passworddim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_eyewithline.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/eyewithline.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_supportdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/supportdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_privacypolicydark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/privacypolicydark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_searchdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/searchdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_saveddim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/saveddim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_aboutdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/aboutdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable-mdpi_splash_screen.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable-mdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_editdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/editdark.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_aboutdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/aboutdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable-hdpi_splash_screen.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable-hdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_bootsplash.xml.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/bootsplash.xml"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_userhighlighted.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/userhighlighted.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_splash_screen.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable-xhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_heartdim.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/heartdim.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_hearthighlighted.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/hearthighlighted.png"
+    },
+    {
+        "merged": "/Users/kamran/Kamran/vidup-mobile/android/app/build/intermediates/res/merged/debug/drawable_userdark.png.flat",
+        "source": "/Users/kamran/Kamran/vidup-mobile/android/app/src/main/res/drawable/userdark.png"
+    }
+]

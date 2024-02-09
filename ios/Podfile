@@ -1,0 +1,51 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+target 'VidupApp' do
+
+  pod 'react-native-ffmpeg/video', :podspec => '../node_modules/react-native-ffmpeg/react-native-ffmpeg.podspec'
+
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+  
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+ 
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
+  pod 'react-native-video-cache', :path => '../node_modules/react-native-video-cache'
+
+  pod 'react-native-keep-awake', :path => '../node_modules/@sayem314/react-native-keep-awake'
+  
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
+
+  target 'VidupAppTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!({ 'Flipper' => '0.74.0' })
+  # post_install do |installer|
+  #   flipper_post_install(installer)
+  # end
+end
+
+target 'VidupApp-tvOS' do
+  # Pods for VidupApp-tvOS
+
+  target 'VidupApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

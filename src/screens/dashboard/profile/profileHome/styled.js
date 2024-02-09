@@ -1,0 +1,65 @@
+import {StyleSheet} from 'react-native';
+export const styles = StyleSheet.create({
+    topHeader: {
+        display: 'flex',
+        justifyContent: 'flex-start',
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingTop: 10
+    },
+    wrapper: {
+        backgroundColor: "#fff",
+        height: '100%'
+    },
+    topBar: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginVertical: 10,
+        marginHorizontal: 10
+    },
+    followersRequest: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+    },
+    notificationSection: {
+        marginTop: 5,
+        flexGrow: 1
+    },
+    notificationItem: {
+        marginTop: 30,
+        display: 'flex',
+        flexDirection: 'row'
+    },
+    gradientButton: {
+        borderRadius: 5,
+        minWidth: 90,
+        textAlign: 'center',
+        alignItems: 'center',
+        height: 32,
+        paddingTop: 7,
+        paddingBottom: 5,
+        paddingLeft: 20,
+        paddingRight: 20
+    },
+    outlineButton: {
+        borderRadius: 5,
+        minWidth: 90,
+        textAlign: 'center',
+        alignItems: 'center',
+        height: 32,
+        paddingTop: 4,
+        paddingLeft: 20,
+        paddingRight: 20,
+        borderWidth: 1,
+        borderColor: '#FB6200'
+    },
+    buttonWrapper: {
+        display: 'flex',
+        justifyContent: 'flex-end',
+        flexDirection:'row',
+        alignItems: 'center',
+        flexGrow: 1
+    }
+});

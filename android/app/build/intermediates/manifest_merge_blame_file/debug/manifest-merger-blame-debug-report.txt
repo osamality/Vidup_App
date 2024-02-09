@@ -1,0 +1,891 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vidupapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/kamran/Kamran/vidup-mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/kamran/Kamran/vidup-mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Required -->
+12-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include this only if you are planning to use the camera roll -->
+13-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:9:5-80
+14-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include this only if you are planning to use the microphone for video recording -->
+15-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:10:5-81
+15-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:13:5-70
+16-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:13:22-68
+17
+18    <uses-feature
+18-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera"
+19-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+20        android:required="false" />
+20-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+21    <uses-feature
+21-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+23        android:required="false" />
+23-->[:react-native-camera] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+24
+25    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+25-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-77
+25-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-74
+26
+27    <queries>
+27-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-18:15
+28        <intent>
+28-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:18
+29            <action android:name="android.support.customtabs.action.CustomTabsService" />
+29-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-90
+29-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:21-87
+30        </intent>
+31        <intent>
+31-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-17:18
+32            <action android:name="android.media.action.IMAGE_CAPTURE" />
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+36-->[com.facebook.flipper:flipper:0.54.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/9bb4fb7885f0c5b6f52668dc86acc96a/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+36-->[com.facebook.flipper:flipper:0.54.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/9bb4fb7885f0c5b6f52668dc86acc96a/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:react-native-community_netinfo] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+37-->[:react-native-community_netinfo] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+38    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required to access Google Play Licensing -->
+38-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+38-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+39    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+39-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+39-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+40-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+41    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+41-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:28:5-77
+41-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:28:22-74
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+42-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+42-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+43    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+43-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:5-110
+43-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:26:22-107
+44    <uses-permission android:name="android.permission.VIBRATE" />
+44-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:12:5-66
+44-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:12:22-63
+45    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+45-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:15:5-81
+45-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:15:22-78
+46
+47    <application
+47-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:15:5-71:19
+48        android:name="com.vidupapp.MainApplication"
+48-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:16:7-38
+49        android:allowBackup="false"
+49-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:21:7-34
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.3.2] /Users/kamran/.gradle/caches/transforms-2/files-2.1/01f01ce87a04739f707cc5e80fd20b31/core-1.3.2/AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:exported="true"
+52-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:17:9-32
+53        android:extractNativeLibs="false"
+54        android:icon="@mipmap/ic_launcher"
+54-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:19:7-41
+55        android:label="@string/app_name"
+55-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:18:7-39
+56        android:roundIcon="@mipmap/ic_launcher_round"
+56-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:20:7-52
+57        android:supportsRtl="true"
+57-->[com.facebook.android:facebook-android-sdk:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/b53e2ee85ad7644d25b03e9e23965da9/jetified-facebook-android-sdk-8.2.0/AndroidManifest.xml:28:18-44
+58        android:testOnly="true"
+59        android:theme="@style/AppTheme"
+59-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:23:7-38
+60        android:usesCleartextTraffic="true" >
+60-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:22:7-42
+61        <meta-data
+61-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:24:7-25:50
+62            android:name="com.facebook.sdk.ApplicationId"
+62-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:24:18-63
+63            android:value="@string/facebook_app_id" />
+63-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:25:9-48
+64
+65        <activity
+65-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:27:5-31:34
+66            android:name="com.facebook.FacebookActivity"
+66-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:27:15-59
+67            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+67-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:28:9-109
+68            android:exported="true"
+68-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:31:9-32
+69            android:label="@string/app_name"
+69-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:30:9-41
+70            android:theme="@style/com_facebook_activity_theme" />
+70-->[com.facebook.android:facebook-common:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/3ebf70e1445e7189f4ec9097d19960f8/jetified-facebook-common-8.2.0/AndroidManifest.xml:33:13-63
+71        <activity
+71-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:32:5-41:16
+72            android:name="com.facebook.CustomTabActivity"
+72-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:33:9-54
+73            android:exported="true" >
+73-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:34:9-32
+74            <intent-filter>
+74-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:35:9-40:25
+75                <action android:name="android.intent.action.VIEW" />
+75-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:36:13-65
+75-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:36:21-62
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:37:13-72
+77-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:37:23-69
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:38:13-74
+78-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:38:23-71
+79
+80                <data android:scheme="@string/fb_login_protocol_scheme" />
+80-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:39:13-71
+80-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:39:19-68
+81            </intent-filter>
+82            <intent-filter>
+82-->[com.facebook.android:facebook-common:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/3ebf70e1445e7189f4ec9097d19960f8/jetified-facebook-common-8.2.0/AndroidManifest.xml:39:13-48:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:36:13-65
+83-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:36:21-62
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:37:13-72
+85-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:37:23-69
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:38:13-74
+86-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:38:23-71
+87
+88                <data
+88-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:39:13-71
+89                    android:host="cct.com.vidupapp"
+90                    android:scheme="fbconnect" />
+90-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:39:19-68
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:42:7-51:20
+94            android:name="com.vidupapp.SplashActivity"
+94-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:43:13-43
+95            android:launchMode="singleTask"
+95-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:46:13-44
+96            android:screenOrientation="portrait"
+96-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:44:11-47
+97            android:theme="@style/BootTheme" >
+97-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:45:13-45
+98            <intent-filter>
+98-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:47:13-50:29
+99                <action android:name="android.intent.action.MAIN" />
+99-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:48:17-69
+99-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:48:25-66
+100
+101                <category android:name="android.intent.category.LAUNCHER" />
+101-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:49:17-77
+101-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:49:27-74
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:52:7-59:34
+105            android:name="com.vidupapp.MainActivity"
+105-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:53:9-37
+106            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+106-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:56:9-86
+107            android:exported="true"
+107-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:59:9-32
+108            android:label="@string/app_name"
+108-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:55:9-41
+109            android:launchMode="singleTask"
+109-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:57:9-40
+110            android:screenOrientation="portrait"
+110-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:54:11-47
+111            android:windowSoftInputMode="adjustResize" /> <!-- <intent-filter> -->
+111-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:58:9-51
+112        <!-- <action android:name="android.intent.action.VIEW" /> -->
+113        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+114        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+115        <!-- <data -->
+116        <!-- android:host="app" -->
+117        <!-- android:scheme="vidupApp" /> -->
+118        <!-- </intent-filter> -->
+119        <!-- </activity> -->
+120        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+120-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:70:9-86
+120-->/Users/kamran/Kamran/vidup-mobile/android/app/src/main/AndroidManifest.xml:70:19-83
+121
+122        <provider
+122-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+123            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+123-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+124            android:authorities="com.vidupapp.fileprovider"
+124-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+125            android:exported="false"
+125-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+126            android:grantUriPermissions="true" >
+126-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+127            <meta-data
+127-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+129                android:resource="@xml/file_provider_paths" />
+129-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+130        </provider>
+131
+132        <activity android:name="com.proyecto26.inappbrowser.ChromeTabsManagerActivity" >
+132-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-22:20
+132-->[:react-native-inappbrowser-reborn] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-inappbrowser-reborn/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:19-87
+133        </activity>
+134
+135        <provider
+135-->[:notifee_react-native] /Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:40
+136            android:name="io.invertase.notifee.NotifeeInitProvider"
+136-->[:notifee_react-native] /Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-68
+137            android:authorities="com.vidupapp.notifee-init-provider"
+137-->[:notifee_react-native] /Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-73
+138            android:exported="false"
+138-->[:notifee_react-native] /Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+139            android:initOrder="-100" />
+139-->[:notifee_react-native] /Users/kamran/Kamran/vidup-mobile/node_modules/@notifee/react-native/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-37
+140
+141        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+141-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+141-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+142        <service
+142-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+143            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+143-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+144            android:exported="false" >
+144-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+145            <intent-filter>
+145-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+146                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+146-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+146-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+147            </intent-filter>
+148        </service>
+149
+150        <receiver
+150-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+151            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+151-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+152            android:exported="true"
+152-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+154            <intent-filter>
+154-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+155-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+156            </intent-filter>
+157        </receiver>
+158
+159        <meta-data
+159-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+160            android:name="firebase_messaging_auto_init_enabled"
+160-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+161            android:value="true" />
+161-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+162        <meta-data
+162-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+163            android:name="com.google.firebase.messaging.default_notification_channel_id"
+163-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+164            android:value="" />
+164-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+165        <meta-data
+165-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+166            android:name="com.google.firebase.messaging.default_notification_color"
+166-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+167            android:resource="@color/white" />
+167-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+168        <meta-data
+168-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-14:36
+169            android:name="app_data_collection_default_enabled"
+169-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+170            android:value="true" />
+170-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-33
+171
+172        <service
+172-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+173            android:name="com.google.firebase.components.ComponentDiscoveryService"
+173-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+174            android:directBootAware="true"
+174-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+175            android:exported="false" >
+175-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+176            <meta-data
+176-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+177                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+177-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-120
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+180                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+180-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+182            <meta-data
+182-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/661be01570e0d11c277234cce4f3a4cc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:30:13-32:85
+183                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+183-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/661be01570e0d11c277234cce4f3a4cc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:31:17-139
+184                android:value="com.google.firebase.components.ComponentRegistrar" />
+184-->[com.google.android.gms:play-services-measurement-api:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/661be01570e0d11c277234cce4f3a4cc/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml:32:17-82
+185            <meta-data
+185-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/68c6216fac245568696c2f551029f160/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+186                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+186-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/68c6216fac245568696c2f551029f160/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+187                android:value="com.google.firebase.components.ComponentRegistrar" />
+187-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/68c6216fac245568696c2f551029f160/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+188            <meta-data
+188-->[com.google.firebase:firebase-installations:17.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/150f70b42b10aff8485ddcd21ea901cb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+189                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+189-->[com.google.firebase:firebase-installations:17.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/150f70b42b10aff8485ddcd21ea901cb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+190                android:value="com.google.firebase.components.ComponentRegistrar" />
+190-->[com.google.firebase:firebase-installations:17.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/150f70b42b10aff8485ddcd21ea901cb/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+191        </service>
+192
+193        <provider
+193-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-26:38
+194            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+194-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-88
+195            android:authorities="com.vidupapp.reactnativefirebaseappinitprovider"
+195-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-86
+196            android:exported="false"
+196-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-37
+197            android:initOrder="99" />
+197-->[:react-native-firebase_app] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-35
+198        <provider
+198-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+199            android:name="androidx.core.content.FileProvider"
+199-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+200            android:authorities="com.vidupapp.provider"
+200-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+201            android:exported="false"
+201-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+202            android:grantUriPermissions="true" >
+202-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+203            <meta-data
+203-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+204                android:name="android.support.FILE_PROVIDER_PATHS"
+204-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+205                android:resource="@xml/provider_paths" />
+205-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+206        </provider>
+207
+208        <activity
+208-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+209            android:name="com.yalantis.ucrop.UCropActivity"
+209-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+210            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+210-->[:react-native-image-crop-picker] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+211
+212        <provider
+212-->[:react-native-share] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+213            android:name="cl.json.RNShareFileProvider"
+213-->[:react-native-share] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-55
+214            android:authorities="com.vidupapp.rnshare.fileprovider"
+214-->[:react-native-share] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-72
+215            android:exported="false"
+215-->[:react-native-share] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+216            android:grantUriPermissions="true" >
+216-->[:react-native-share] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-share/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+217            <meta-data
+217-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+218                android:name="android.support.FILE_PROVIDER_PATHS"
+218-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+219                android:resource="@xml/share_download_paths" />
+219-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+220        </provider>
+221        <provider
+221-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+222            android:name="com.RNFetchBlob.Utils.FileProvider"
+222-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+223            android:authorities="com.vidupapp.provider"
+223-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+224            android:exported="false"
+224-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+225            android:grantUriPermissions="true" >
+225-->[:rn-fetch-blob] /Users/kamran/Kamran/vidup-mobile/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+226            <meta-data
+226-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+227                android:name="android.support.FILE_PROVIDER_PATHS"
+227-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+228                android:resource="@xml/provider_paths" />
+228-->[:react-native-webview] /Users/kamran/Kamran/vidup-mobile/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+229        </provider>
+230
+231        <activity android:name="com.facebook.CustomTabMainActivity" />
+231-->[com.facebook.android:facebook-common:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/3ebf70e1445e7189f4ec9097d19960f8/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:9-71
+231-->[com.facebook.android:facebook-common:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/3ebf70e1445e7189f4ec9097d19960f8/jetified-facebook-common-8.2.0/AndroidManifest.xml:34:19-68
+232
+233        <meta-data
+233-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/cfbfbd72410a0399737d8f1e029b1ae4/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+234            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+234-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/cfbfbd72410a0399737d8f1e029b1ae4/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+235            android:value="GlideModule" />
+235-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/cfbfbd72410a0399737d8f1e029b1ae4/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+236
+237        <provider
+237-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+238            android:name="androidx.work.impl.WorkManagerInitializer"
+238-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+239            android:authorities="com.vidupapp.workmanager-init"
+239-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+240            android:directBootAware="false"
+240-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+241            android:exported="false"
+241-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+242            android:multiprocess="true" />
+242-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+243
+244        <service
+244-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+245            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+245-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+247            android:enabled="@bool/enable_system_alarm_service_default"
+247-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+248            android:exported="false" />
+248-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+249        <service
+249-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+250            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+250-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+252            android:enabled="@bool/enable_system_job_service_default"
+252-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+253            android:exported="true"
+253-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+254            android:permission="android.permission.BIND_JOB_SERVICE" />
+254-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+255        <service
+255-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+256            android:name="androidx.work.impl.foreground.SystemForegroundService"
+256-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+258            android:enabled="@bool/enable_system_foreground_service_default"
+258-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+259            android:exported="false" />
+259-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+260
+261        <receiver
+261-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+262            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+262-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+263            android:directBootAware="false"
+263-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+264            android:enabled="true"
+264-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+265            android:exported="false" />
+265-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+266        <receiver
+266-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+267-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+269            android:enabled="false"
+269-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+270            android:exported="false" >
+270-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+271            <intent-filter>
+271-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+272                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+272-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+272-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+273                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+273-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+273-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+274            </intent-filter>
+275        </receiver>
+276        <receiver
+276-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+277            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+277-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+278            android:directBootAware="false"
+278-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+279            android:enabled="false"
+279-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+280            android:exported="false" >
+280-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+281            <intent-filter>
+281-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+282                <action android:name="android.intent.action.BATTERY_OKAY" />
+282-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+282-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+283                <action android:name="android.intent.action.BATTERY_LOW" />
+283-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+283-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+284            </intent-filter>
+285        </receiver>
+286        <receiver
+286-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+287-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+288            android:directBootAware="false"
+288-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+289            android:enabled="false"
+289-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+290            android:exported="false" >
+290-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+291            <intent-filter>
+291-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+292                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+292-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+292-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+293                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+293-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+293-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+294            </intent-filter>
+295        </receiver>
+296        <receiver
+296-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+297            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+297-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+298            android:directBootAware="false"
+298-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+299            android:enabled="false"
+299-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+300            android:exported="false" >
+300-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+301            <intent-filter>
+301-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+302                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+302-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+302-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+306            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+306-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+308            android:enabled="false"
+308-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+309            android:exported="false" >
+309-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+310            <intent-filter>
+310-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+311                <action android:name="android.intent.action.BOOT_COMPLETED" />
+311-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+311-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+312                <action android:name="android.intent.action.TIME_SET" />
+312-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+312-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+313                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+313-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+313-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+314            </intent-filter>
+315        </receiver>
+316        <receiver
+316-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+317            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+317-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+318            android:directBootAware="false"
+318-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+319            android:enabled="@bool/enable_system_alarm_service_default"
+319-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+320            android:exported="false" >
+320-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+321            <intent-filter>
+321-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+322                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+322-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+322-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+323            </intent-filter>
+324        </receiver>
+325        <receiver
+325-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+326            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+326-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+327            android:directBootAware="false"
+327-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+328            android:enabled="true"
+328-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+329            android:exported="true"
+329-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+330            android:permission="android.permission.DUMP" >
+330-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+331            <intent-filter>
+331-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+332                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+332-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+332-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+333            </intent-filter>
+334        </receiver>
+335        <receiver
+335-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+336            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+336-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+337            android:exported="true"
+337-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+338            android:permission="com.google.android.c2dm.permission.SEND" >
+338-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+339            <intent-filter>
+339-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+340                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+340-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+340-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+341            </intent-filter>
+342        </receiver>
+343        <!--
+344             FirebaseMessagingService performs security checks at runtime,
+345             but set to not exported to explicitly avoid allowing another app to call it.
+346        -->
+347        <service
+347-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+348            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+348-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+349            android:directBootAware="true"
+349-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+350            android:exported="false" >
+350-->[com.google.firebase:firebase-messaging:23.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c86747f61181574383f1c3803933579f/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+351            <intent-filter android:priority="-500" >
+351-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+352                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+352-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+352-->[:react-native-firebase_messaging] /Users/kamran/Kamran/vidup-mobile/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+353            </intent-filter>
+354        </service>
+355
+356        <activity
+356-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+357            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+357-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+358            android:excludeFromRecents="true"
+358-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+360-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+361        <!--
+362            Service handling Google Sign-In user revocation. For apps that do not integrate with
+363            Google Sign-In, this service will never be started.
+364        -->
+365        <service
+365-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+366            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+366-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+367            android:exported="true"
+367-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+368            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+368-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+369            android:visibleToInstantApps="true" />
+369-->[com.google.android.gms:play-services-auth:19.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/f42a414605035d6bd46494252e83d0a8/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+370
+371        <provider
+371-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+372            android:name="com.google.firebase.provider.FirebaseInitProvider"
+372-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+373            android:authorities="com.vidupapp.firebaseinitprovider"
+373-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+374            android:directBootAware="true"
+374-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+375            android:exported="false"
+375-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+376            android:initOrder="100" />
+376-->[com.google.firebase:firebase-common:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a6262022c7a1402f0b7a645eabec4b8/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+377
+378        <activity
+378-->[com.google.android.gms:play-services-base:17.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/e479308582b56ec859515eccad7bda5d/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+379            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+379-->[com.google.android.gms:play-services-base:17.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/e479308582b56ec859515eccad7bda5d/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-base:17.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/e479308582b56ec859515eccad7bda5d/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+381            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+381-->[com.google.android.gms:play-services-base:17.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/e479308582b56ec859515eccad7bda5d/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+382
+383        <receiver
+383-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:29:9-33:20
+384            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+384-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:30:13-85
+385            android:enabled="true"
+385-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:31:13-35
+386            android:exported="false" >
+386-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:32:13-37
+387        </receiver>
+388
+389        <service
+389-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:35:9-38:40
+390            android:name="com.google.android.gms.measurement.AppMeasurementService"
+390-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:36:13-84
+391            android:enabled="true"
+391-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:37:13-35
+392            android:exported="false" />
+392-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:38:13-37
+393        <service
+393-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:39:9-43:72
+394            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+394-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:40:13-87
+395            android:enabled="true"
+395-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:41:13-35
+396            android:exported="false"
+396-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:42:13-37
+397            android:permission="android.permission.BIND_JOB_SERVICE" />
+397-->[com.google.android.gms:play-services-measurement:20.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c9ce698140401ffef59d9ab0e444ad21/jetified-play-services-measurement-20.0.0/AndroidManifest.xml:43:13-69
+398
+399        <meta-data
+399-->[com.google.android.gms:play-services-basement:17.6.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/a833ab8786eec27da7a721ac7aa55ffb/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+400            android:name="com.google.android.gms.version"
+400-->[com.google.android.gms:play-services-basement:17.6.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/a833ab8786eec27da7a721ac7aa55ffb/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+401            android:value="@integer/google_play_services_version" />
+401-->[com.google.android.gms:play-services-basement:17.6.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/a833ab8786eec27da7a721ac7aa55ffb/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+402        <!--
+403         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+404         with the application context. This config is merged in with the host app's manifest,
+405         but there can only be one provider with the same authority activated at any given
+406         point; so if the end user has two or more different apps that use Facebook SDK, only the
+407         first one will be able to use the provider. To work around this problem, we use the
+408         following placeholder in the authority to identify each host application as if it was
+409         a completely different provider.
+410        -->
+411        <provider
+411-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:39:9-42:40
+412            android:name="com.facebook.internal.FacebookInitProvider"
+412-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:40:13-70
+413            android:authorities="com.vidupapp.FacebookInitProvider"
+413-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:41:13-72
+414            android:exported="false" />
+414-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:42:13-37
+415
+416        <receiver
+416-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:44:9-50:20
+417            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+417-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:45:13-86
+418            android:exported="false" >
+418-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:46:13-37
+419            <intent-filter>
+419-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:47:13-49:29
+420                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+420-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:17-95
+420-->[com.facebook.android:facebook-core:8.2.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/7a642941b205ff46ce9b9df0c084b478/jetified-facebook-core-8.2.0/AndroidManifest.xml:48:25-92
+421            </intent-filter>
+422        </receiver>
+423
+424        <service
+424-->[androidx.room:room-runtime:2.2.5] /Users/kamran/.gradle/caches/transforms-2/files-2.1/39128bb5205200bcdab2458e5610f7ec/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+425            android:name="androidx.room.MultiInstanceInvalidationService"
+425-->[androidx.room:room-runtime:2.2.5] /Users/kamran/.gradle/caches/transforms-2/files-2.1/39128bb5205200bcdab2458e5610f7ec/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+426            android:directBootAware="true"
+426-->[androidx.room:room-runtime:2.2.5] /Users/kamran/.gradle/caches/transforms-2/files-2.1/39128bb5205200bcdab2458e5610f7ec/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+427            android:exported="false" />
+427-->[androidx.room:room-runtime:2.2.5] /Users/kamran/.gradle/caches/transforms-2/files-2.1/39128bb5205200bcdab2458e5610f7ec/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+428        <service
+428-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+429            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+429-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+430            android:exported="false" >
+430-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+431            <meta-data
+431-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+432                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+432-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+433                android:value="cct" />
+433-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/aa2fe8f260a0e1bfee25f423e65d7166/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+434        </service>
+435        <service
+435-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+436            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+436-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+437            android:exported="false"
+437-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+438            android:permission="android.permission.BIND_JOB_SERVICE" >
+438-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+439        </service>
+440
+441        <receiver
+441-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+442            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+442-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+443            android:exported="false" /> <!-- Receiver Service -->
+443-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/41696edd91fcc018482522aeab20a64e/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+444        <service
+444-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:20:9-22:40
+445            android:name="app.notifee.core.ReceiverService"
+445-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:21:13-60
+446            android:exported="false" /> <!-- Foreground Service -->
+446-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:22:13-37
+447        <service
+447-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:25:9-27:40
+448            android:name="app.notifee.core.ForegroundService"
+448-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:26:13-62
+449            android:exported="false" />
+449-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:27:13-37
+450
+451        <receiver
+451-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:29:9-37:20
+452            android:name="app.notifee.core.RebootBroadcastReceiver"
+452-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:30:13-68
+453            android:exported="false" >
+453-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:31:13-37
+454            <intent-filter>
+454-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:32:13-36:29
+455                <action android:name="android.intent.action.BOOT_COMPLETED" />
+455-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+455-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+456                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+456-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:34:17-82
+456-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:34:25-79
+457                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+457-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:35:17-82
+457-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:35:25-79
+458            </intent-filter>
+459        </receiver>
+460        <receiver
+460-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:38:9-46:20
+461            android:name="app.notifee.core.NotificationAlarmReceiver"
+461-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:39:13-70
+462            android:exported="false" >
+462-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:40:13-37
+463            <intent-filter>
+463-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:32:13-36:29
+464                <action android:name="android.intent.action.BOOT_COMPLETED" />
+464-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+464-->[androidx.work:work-runtime:2.5.0] /Users/kamran/.gradle/caches/transforms-2/files-2.1/6bb3879686d50412fd0f132b339da298/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+465                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+465-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:34:17-82
+465-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:34:25-79
+466                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+466-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:35:17-82
+466-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:35:25-79
+467            </intent-filter>
+468        </receiver> <!-- Broadcast Receiver -->
+469        <receiver
+469-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:49:9-57:20
+470            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+470-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:50:13-72
+471            android:exported="false" >
+471-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:51:13-37
+472            <intent-filter>
+472-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:52:13-56:29
+473                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+473-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:53:17-85
+473-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:53:25-82
+474                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+474-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:54:17-102
+474-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:54:25-99
+475                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+475-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:55:17-108
+475-->[app.notifee:core:202108261754] /Users/kamran/.gradle/caches/transforms-2/files-2.1/c1839f44f006da6613cc664d4ee3df9a/jetified-core-202108261754/AndroidManifest.xml:55:25-105
+476            </intent-filter>
+477        </receiver>
+478    </application>
+479
+480</manifest>

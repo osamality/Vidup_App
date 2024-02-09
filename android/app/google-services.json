@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "111167663529",
+    "project_id": "vidup-be0a9",
+    "storage_bucket": "vidup-be0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111167663529:android:50ba02aeada062685aa8b8",
+        "android_client_info": {
+          "package_name": "com.vidupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111167663529-ifad54e58hje91b0916dtb47vp7e619f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidupapp",
+            "certificate_hash": "633c9a318beb18ff7329577539079c17b909c49e"
+          }
+        },
+        {
+          "client_id": "111167663529-loesf94qo4cpudfa8lc76cs0f9g8ngvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidupapp",
+            "certificate_hash": "61922f898356b572c534e0ccd4369b586fe1be18"
+          }
+        },
+        {
+          "client_id": "111167663529-o8lnmf16nhpotrqdvmprnibm0l1t1fpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vidupapp",
+            "certificate_hash": "3f5f765e096db61c6701a4294be74fe8c05cddb0"
+          }
+        },
+        {
+          "client_id": "111167663529-hdss236j6t4mq3ggcmdishq5davb8n62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9jBX6AuaYKETmbuxCz3g57axt9-aRWzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111167663529-hdss236j6t4mq3ggcmdishq5davb8n62.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "111167663529-9lj1onjio4okk04vmcmomvim4hg45lmm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.frtech.VidupApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
